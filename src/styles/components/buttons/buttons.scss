@@ -1,0 +1,75 @@
+@import "../../variables";
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 224px;
+  border-radius: 12px;
+  font-size: 15px;
+  line-height: 120%;
+  font-weight: 700;
+  background-color: $accent;
+  color: $main;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    fill: var(--main)
+  }
+
+  &_white {
+    background-color: $main;
+    color: $font-color;
+
+    svg {
+      fill: $font-color;
+    }
+  }
+
+  &_gray {
+    background-color: $accent-secondary;
+    color: $font-color;
+
+    svg {
+      fill: $accent;
+    }
+  }
+
+  &_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+
+    svg {
+      margin: 0;
+    }
+  }
+}
+
+.soc-media {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 13.3311px;
+  background-color: $accent-secondary;
+
+  svg {
+    fill: $accent;
+  }
+}
+
+

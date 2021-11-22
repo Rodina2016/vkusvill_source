@@ -1,0 +1,32 @@
+.faq-page {
+  padding-top: 22px;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 900;
+  }
+
+  &__text {
+    max-width: 690px;
+  }
+
+  &__info {
+    font-size: 13px;
+    line-height: 120%;
+    font-weight: 700;
+  }
+
+  &__share {
+    padding-left: 15px;
+  }
+
+  &__svg{
+    width: 18px;
+    height: 20px;
+    fill: var(--accent);
+    vertical-align: middle;
+  }
+}

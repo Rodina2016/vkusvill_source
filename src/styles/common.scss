@@ -1,0 +1,36 @@
+@import "variables";
+
+body {
+  font-family: $ff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  background-color: $background;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 900;
+  margin: 0;
+  
+  @media (max-width: 991px) {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 700;
+  margin: 0;
+
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+}
+
+p {
+  margin: 0;
+}
